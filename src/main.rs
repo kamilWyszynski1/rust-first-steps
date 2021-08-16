@@ -1,5 +1,9 @@
+mod generics;
+
+use std::collections::HashMap;
+
 fn main() {
-    println!("Hello, world!");
+    generics::run();
 }
 
 // FIRST STEPS
